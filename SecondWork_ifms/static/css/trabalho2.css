@@ -1,0 +1,36 @@
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+#subtitulo {
+    text-align: center;
+}
+
+.grupo {
+    text-align: center;
+}
+
+a {
+    width: 120px;
+    height: 15px;
+    line-height: 18px;
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}
+
+.campo {
+    padding: 10px;
+}
+
+#first_input {
+    height: 30px;
+}

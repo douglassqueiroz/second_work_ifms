@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../static/css/trabalho2.css" m>
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div>
+        <h1 id="titulo">TADS6 - Tópicos Especiais em Tecnologia da Informação</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+    <!-- Início do formulário -->
+    <form method="POST" action="/trabalho2">
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="first_input" required>
+                <a href="">Adicionar</a>
+            </div>
+        </fieldset>
+        <main>
+
+        </main>
+    </form>
+    <div style="text-align:center"> O retorno é {{nome}}</div>
+</body>
+
+</html>
